@@ -1,0 +1,15 @@
+{
+  "seed_links_file": "seeds.txt",
+  "max_workers": 4,
+  "max_links": 100000,
+  "output_dir": "./data",
+  "network_type": "yggdrasil",
+  "yggdrasil_ranges": ["200::/7"],
+  "max_pages_per_domain": 100,
+  "allowed_tld": [".ygg"],
+  "playwright": {
+    "headless": true,
+    "timeout_ms": 30000
+  },
+  "browserless_url": "ws://localhost:3000/chromium/playwright?token=abcdede"
+}
